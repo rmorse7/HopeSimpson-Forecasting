@@ -1,0 +1,324 @@
+Place,Lat,Long
+"Afghanistan, Afghanistan",33.93911,67.709953
+"Albania, Albania",41.1533,20.1683
+"Algeria, Algeria",28.0339,1.6596
+"Andorra, Andorra",42.5063,1.5218
+"Angola, Angola",-11.2027,17.8739
+"Antigua and Barbuda, Antigua and Barbuda",17.0608,-61.7964
+"Argentina, Argentina",-38.4161,-63.6167
+"Armenia, Armenia",40.0691,45.0382
+"Australian Capital Territory, Australia",-35.4735,149.0124
+"New South Wales, Australia",-33.8688,151.2093
+"Northern Territory, Australia",-12.4634,130.8456
+"Queensland, Australia",-27.4698,153.0251
+"South Australia, Australia",-34.9285,138.6007
+"Tasmania, Australia",-42.8821,147.3272
+"Victoria, Australia",-37.8136,144.9631
+"Western Australia, Australia",-31.9505,115.8605
+"Austria, Austria",47.5162,14.5501
+"Azerbaijan, Azerbaijan",40.1431,47.5769
+"Bahamas, Bahamas",25.025885,-78.035889
+"Bahrain, Bahrain",26.0275,50.55
+"Bangladesh, Bangladesh",23.685,90.3563
+"Barbados, Barbados",13.1939,-59.5432
+"Belarus, Belarus",53.7098,27.9534
+"Belgium, Belgium",50.8333,4.469936
+"Belize, Belize",17.1899,-88.4976
+"Benin, Benin",9.3077,2.3158
+"Bhutan, Bhutan",27.5142,90.4336
+"Bolivia, Bolivia",-16.2902,-63.5887
+"Bosnia and Herzegovina, Bosnia and Herzegovina",43.9159,17.6791
+"Botswana, Botswana",-22.3285,24.6849
+"Brazil, Brazil",-14.235,-51.9253
+"Brunei, Brunei",4.5353,114.7277
+"Bulgaria, Bulgaria",42.7339,25.4858
+"Burkina Faso, Burkina Faso",12.2383,-1.5616
+"Burma, Burma",21.9162,95.956
+"Burundi, Burundi",-3.3731,29.9189
+"Cabo Verde, Cabo Verde",16.5388,-23.0418
+"Cambodia, Cambodia",11.55,104.9167
+"Cameroon, Cameroon",3.848,11.5021
+"Alberta, Canada",53.9333,-116.5765
+"British Columbia, Canada",53.7267,-127.6476
+"Manitoba, Canada",53.7609,-98.8139
+"New Brunswick, Canada",46.5653,-66.4619
+"Newfoundland and Labrador, Canada",53.1355,-57.6604
+"Northwest Territories, Canada",64.8255,-124.8457
+"Nova Scotia, Canada",44.682,-63.7443
+"Nunavut, Canada",70.2998,-83.1076
+"Ontario, Canada",51.2538,-85.3232
+"Prince Edward Island, Canada",46.5107,-63.4168
+"Quebec, Canada",52.9399,-73.5491
+"Saskatchewan, Canada",52.9399,-106.4509
+"Yukon, Canada",64.2823,-135
+"Central African Republic, Central African Republic",6.6111,20.9394
+"Chad, Chad",15.4542,18.7322
+"Chile, Chile",-35.6751,-71.543
+"Anhui, China",31.8257,117.2264
+"Beijing, China",40.1824,116.4142
+"Chongqing, China",30.0572,107.874
+"Fujian, China",26.0789,117.9874
+"Gansu, China",35.7518,104.2861
+"Guangdong, China",23.3417,113.4244
+"Guangxi, China",23.8298,108.7881
+"Guizhou, China",26.8154,106.8748
+"Hainan, China",19.1959,109.7453
+"Hebei, China",39.549,116.1306
+"Heilongjiang, China",47.862,127.7615
+"Henan, China",37.8957,114.9042
+"Hong Kong, China",22.3,114.2
+"Hubei, China",30.9756,112.2707
+"Hunan, China",27.6104,111.7088
+"Inner Mongolia, China",44.0935,113.9448
+"Jiangsu, China",32.9711,119.455
+"Jiangxi, China",27.614,115.7221
+"Jilin, China",43.6661,126.1923
+"Liaoning, China",41.2956,122.6085
+"Macau, China",22.1667,113.55
+"Ningxia, China",37.2692,106.1655
+"Qinghai, China",35.7452,95.9956
+"Shaanxi, China",35.1917,108.8701
+"Shandong, China",36.3427,118.1498
+"Shanghai, China",31.202,121.4491
+"Shanxi, China",37.5777,112.2922
+"Sichuan, China",30.6171,102.7103
+"Tianjin, China",39.3054,117.323
+"Tibet, China",31.6927,88.0924
+"Xinjiang, China",41.1129,85.2401
+"Yunnan, China",24.974,101.487
+"Zhejiang, China",29.1832,120.0934
+"Colombia, Colombia",4.5709,-74.2973
+"Comoros, Comoros",-11.6455,43.3333
+"Congo (Brazzaville), Congo (Brazzaville)",-0.228,15.8277
+"Congo (Kinshasa), Congo (Kinshasa)",-4.0383,21.7587
+"Costa Rica, Costa Rica",9.7489,-83.7534
+"Cote d'Ivoire, Cote d'Ivoire",7.54,-5.5471
+"Croatia, Croatia",45.1,15.2
+"Cuba, Cuba",21.521757,-77.781167
+"Cyprus, Cyprus",35.1264,33.4299
+"Czechia, Czechia",49.8175,15.473
+"Faroe Islands, Denmark",61.8926,-6.9118
+"Greenland, Denmark",71.7069,-42.6043
+"Denmark, Denmark",56.2639,9.5018
+"Djibouti, Djibouti",11.8251,42.5903
+"Dominica, Dominica",15.415,-61.371
+"Dominican Republic, Dominican Republic",18.7357,-70.1627
+"Ecuador, Ecuador",-1.8312,-78.1834
+"Egypt, Egypt",26.820553,30.802498
+"El Salvador, El Salvador",13.7942,-88.8965
+"Equatorial Guinea, Equatorial Guinea",1.6508,10.2679
+"Eritrea, Eritrea",15.1794,39.7823
+"Estonia, Estonia",58.5953,25.0136
+"Eswatini, Eswatini",-26.5225,31.4659
+"Ethiopia, Ethiopia",9.145,40.4897
+"Fiji, Fiji",-17.7134,178.065
+"Finland, Finland",61.92411,25.748151
+"French Guiana, France",3.9339,-53.1258
+"French Polynesia, France",-17.6797,149.4068
+"Guadeloupe, France",16.265,-61.551
+"Martinique, France",14.6415,-61.0242
+"Mayotte, France",-12.8275,45.166244
+"New Caledonia, France",-20.904305,165.618042
+"Reunion, France",-21.1151,55.5364
+"Saint Barthelemy, France",17.9,-62.8333
+"Saint Pierre and Miquelon, France",46.8852,-56.3159
+"St Martin, France",18.0708,-63.0501
+"Wallis and Futuna, France",-14.2938,-178.1165
+"France, France",46.2276,2.2137
+"Gabon, Gabon",-0.8037,11.6094
+"Gambia, Gambia",13.4432,-15.3101
+"Georgia, Georgia",42.3154,43.3569
+"Germany, Germany",51.165691,10.451526
+"Ghana, Ghana",7.9465,-1.0232
+"Greece, Greece",39.0742,21.8243
+"Grenada, Grenada",12.1165,-61.679
+"Guatemala, Guatemala",15.7835,-90.2308
+"Guinea, Guinea",9.9456,-9.6966
+"Guinea-Bissau, Guinea-Bissau",11.8037,-15.1804
+"Guyana, Guyana",4.860416,-58.93018
+"Haiti, Haiti",18.9712,-72.2852
+"Holy See, Holy See",41.9029,12.4534
+"Honduras, Honduras",15.2,-86.2419
+"Hungary, Hungary",47.1625,19.5033
+"Iceland, Iceland",64.9631,-19.0208
+"India, India",20.593684,78.96288
+"Indonesia, Indonesia",-0.7893,113.9213
+"Iran, Iran",32.427908,53.688046
+"Iraq, Iraq",33.223191,43.679291
+"Ireland, Ireland",53.1424,-7.6921
+"Israel, Israel",31.046051,34.851612
+"Italy, Italy",41.87194,12.56738
+"Jamaica, Jamaica",18.1096,-77.2975
+"Japan, Japan",36.204824,138.252924
+"Jordan, Jordan",31.24,36.51
+"Kazakhstan, Kazakhstan",48.0196,66.9237
+"Kenya, Kenya",-0.0236,37.9062
+"Kiribati, Kiribati",-3.3704,-168.734
+"Korea, South, Korea, South",35.907757,127.766922
+"Kosovo, Kosovo",42.602636,20.902977
+"Kuwait, Kuwait",29.31166,47.481766
+"Kyrgyzstan, Kyrgyzstan",41.20438,74.766098
+"Laos, Laos",19.85627,102.495496
+"Latvia, Latvia",56.8796,24.6032
+"Lebanon, Lebanon",33.8547,35.8623
+"Lesotho, Lesotho",-29.61,28.2336
+"Liberia, Liberia",6.428055,-9.429499
+"Libya, Libya",26.3351,17.228331
+"Liechtenstein, Liechtenstein",47.14,9.55
+"Lithuania, Lithuania",55.1694,23.8813
+"Luxembourg, Luxembourg",49.8153,6.1296
+"Madagascar, Madagascar",-18.766947,46.869107
+"Malawi, Malawi",-13.2543,34.3015
+"Malaysia, Malaysia",4.210484,101.975766
+"Maldives, Maldives",3.2028,73.2207
+"Mali, Mali",17.570692,-3.996166
+"Malta, Malta",35.9375,14.3754
+"Marshall Islands, Marshall Islands",7.1315,171.1845
+"Mauritania, Mauritania",21.0079,-10.9408
+"Mauritius, Mauritius",-20.348404,57.552152
+"Mexico, Mexico",23.6345,-102.5528
+"Micronesia, Micronesia",7.4256,150.5508
+"Moldova, Moldova",47.4116,28.3699
+"Monaco, Monaco",43.7333,7.4167
+"Mongolia, Mongolia",46.8625,103.8467
+"Montenegro, Montenegro",42.708678,19.37439
+"Morocco, Morocco",31.7917,-7.0926
+"Mozambique, Mozambique",-18.665695,35.529562
+"Namibia, Namibia",-22.9576,18.4904
+"Nepal, Nepal",28.1667,84.25
+"Aruba, Netherlands",12.5211,-69.9683
+"Bonaire, Sint Eustatius and Saba, Netherlands",12.1784,-68.2385
+"Curacao, Netherlands",12.1696,-68.99
+"Sint Maarten, Netherlands",18.0425,-63.0548
+"Netherlands, Netherlands",52.1326,5.2913
+"Cook Islands, New Zealand",-21.2367,-159.7777
+"New Zealand, New Zealand",-40.9006,174.886
+"Nicaragua, Nicaragua",12.865416,-85.207229
+"Niger, Niger",17.607789,8.081666
+"Nigeria, Nigeria",9.082,8.6753
+"North Macedonia, North Macedonia",41.6086,21.7453
+"Norway, Norway",60.472,8.4689
+"Oman, Oman",21.512583,55.923255
+"Pakistan, Pakistan",30.3753,69.3451
+"Palau, Palau",7.515,134.5825
+"Panama, Panama",8.538,-80.7821
+"Papua New Guinea, Papua New Guinea",-6.314993,143.95555
+"Paraguay, Paraguay",-23.4425,-58.4438
+"Peru, Peru",-9.19,-75.0152
+"Philippines, Philippines",12.879721,121.774017
+"Poland, Poland",51.9194,19.1451
+"Portugal, Portugal",39.3999,-8.2245
+"Qatar, Qatar",25.3548,51.1839
+"Romania, Romania",45.9432,24.9668
+"Russia, Russia",61.52401,105.318756
+"Rwanda, Rwanda",-1.9403,29.8739
+"Saint Kitts and Nevis, Saint Kitts and Nevis",17.357822,-62.782998
+"Saint Lucia, Saint Lucia",13.9094,-60.9789
+"Saint Vincent and the Grenadines, Saint Vincent and the Grenadines",12.9843,-61.2872
+"Samoa, Samoa",-13.759,-172.1046
+"San Marino, San Marino",43.9424,12.4578
+"Sao Tome and Principe, Sao Tome and Principe",0.1864,6.6131
+"Saudi Arabia, Saudi Arabia",23.885942,45.079162
+"Senegal, Senegal",14.4974,-14.4524
+"Serbia, Serbia",44.0165,21.0059
+"Seychelles, Seychelles",-4.6796,55.492
+"Sierra Leone, Sierra Leone",8.460555,-11.779889
+"Singapore, Singapore",1.2833,103.8333
+"Slovakia, Slovakia",48.669,19.699
+"Slovenia, Slovenia",46.1512,14.9955
+"Solomon Islands, Solomon Islands",-9.6457,160.1562
+"Somalia, Somalia",5.152149,46.199616
+"South Africa, South Africa",-30.5595,22.9375
+"South Sudan, South Sudan",6.877,31.307
+"Spain, Spain",40.463667,-3.74922
+"Sri Lanka, Sri Lanka",7.873054,80.771797
+"Sudan, Sudan",12.8628,30.2176
+"Summer Olympics 2020, Summer Olympics 2020",35.6491,139.7737
+"Suriname, Suriname",3.9193,-56.0278
+"Sweden, Sweden",60.128161,18.643501
+"Switzerland, Switzerland",46.8182,8.2275
+"Syria, Syria",34.802075,38.996815
+"Taiwan*, Taiwan*",23.7,121
+"Tajikistan, Tajikistan",38.861,71.2761
+"Tanzania, Tanzania",-6.369028,34.888822
+"Thailand, Thailand",15.870032,100.992541
+"Timor-Leste, Timor-Leste",-8.874217,125.727539
+"Togo, Togo",8.6195,0.8248
+"Trinidad and Tobago, Trinidad and Tobago",10.6918,-61.2225
+"Tunisia, Tunisia",33.886917,9.537499
+"Turkey, Turkey",38.9637,35.2433
+"Uganda, Uganda",1.373333,32.290275
+"Ukraine, Ukraine",48.3794,31.1656
+"United Arab Emirates, United Arab Emirates",23.424076,53.847818
+"Anguilla, United Kingdom",18.2206,-63.0686
+"Bermuda, United Kingdom",32.3078,-64.7505
+"British Virgin Islands, United Kingdom",18.4207,-64.64
+"Cayman Islands, United Kingdom",19.3133,-81.2546
+"Channel Islands, United Kingdom",49.3723,-2.3644
+"Falkland Islands (Malvinas), United Kingdom",-51.7963,-59.5236
+"Gibraltar, United Kingdom",36.1408,-5.3536
+"Isle of Man, United Kingdom",54.2361,-4.5481
+"Montserrat, United Kingdom",16.742498,-62.187366
+"Saint Helena, Ascension and Tristan da Cunha, United Kingdom",-7.9467,-14.3559
+"Turks and Caicos Islands, United Kingdom",21.694,-71.7979
+"United Kingdom, United Kingdom",55.3781,-3.436
+"Uruguay, Uruguay",-32.5228,-55.7658
+"Uzbekistan, Uzbekistan",41.377491,64.585262
+"Vanuatu, Vanuatu",-15.3767,166.9592
+"Venezuela, Venezuela",6.4238,-66.5897
+"Vietnam, Vietnam",14.058324,108.277199
+"West Bank and Gaza, West Bank and Gaza",31.9522,35.2332
+"Yemen, Yemen",15.552727,48.516388
+"Zambia, Zambia",-13.133897,27.849332
+"Zimbabwe, Zimbabwe",-19.015438,29.154857
+"Alabama, US",32.31823,-86.902298
+"Alaska, US",66.160507,-153.369141
+"Arizona, US",34.048927,-111.093735
+"Arkansas, US",34.799999,-92.199997
+"California, US",36.778259,-119.417931
+"Colorado, US",39.113014,-105.358887
+"Connecticut, US",41.599998,-72.699997
+"Delaware, US",39,-75.5
+"Florida, US",27.994402,-81.760254
+"Georgia, US",33.247875,-83.441162
+"Harris, Texas, US",29.7752,-95.3103
+"Hawaii, US",19.741755,-155.844437
+"Idaho, US",44.068203,-114.742043
+"Illinois, US",40,-89
+"Indiana, US",40.273502,-86.126976
+"Iowa, US",42.032974,-93.581543
+"Kansas, US",38.5,-98
+"Kentucky, US",37.839333,-84.27002
+"Louisiana, US",30.39183,-92.329102
+"Maine, US",45.367584,-68.972168
+"Maryland, US",39.045753,-76.641273
+"Massachusetts, US",42.407211,-71.382439
+"Michigan, US",44.182205,-84.506836
+"Minnesota, US",46.39241,-94.63623
+"Mississippi, US",33,-90
+"Missouri, US",38.573936,-92.60376
+"Montana, US",46.96526,-109.533691
+"Nebraska, US",41.5,-100
+"Nevada, US",39.876019,-117.224121
+"New Hampshire, US",44,-71.5
+"New Jersey, US",39.833851,-74.871826
+"New Mexico, US",34.307144,-106.018066
+"New York, US",43,-75
+"North Carolina, US",35.782169,-80.793457
+"North Dakota, US",47.650589,-100.437012
+"Ohio, US",40.367474,-82.996216
+"Oklahoma, US",36.084621,-96.921387
+"Oregon, US",44,-120.5
+"Pennsylvania, US",41.203323,-77.194527
+"Rhode Island, US",41.700001,-71.5
+"South Carolina, US",33.836082,-81.163727
+"South Dakota, US",44.5,-100
+"Tennessee, US",35.860119,-86.660156
+"Texas, US",31,-100
+"Utah, US",39.41922,-111.950684
+"Vermont, US",44,-72.699997
+"Virginia, US",37.926868,-78.024902
+"Washington, US",47.751076,-120.740135
+"West Virginia, US",39,-80.5
+"Wisconsin, US",44.5,-89.5
+"Wyoming, US",43.07597,-107.290283
