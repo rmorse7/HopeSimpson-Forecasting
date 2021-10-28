@@ -1,1 +1,3 @@
-Editing and using John Hopkins data for modeling COVID-19 across US
+Editing and using John Hopkins University data for modeling COVID-19 across US
+
+Data source: https://github.com/CSSEGISandData/COVID-19
