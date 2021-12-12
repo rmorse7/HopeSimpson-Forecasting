@@ -2,11 +2,10 @@ import * as React from 'react';
 import Copyright from "./copyright";
 import Toolbar from "@mui/material/Toolbar";
 import Box from "@mui/material/Box";
-import {Typography} from "@mui/material";
 import tableau from 'tableau-api';
 import {Component} from "react";
 
-class Orders extends Component{
+class History extends Component{
     componentDidMount() {
         this.initViz()
     }
@@ -41,4 +40,4 @@ class Orders extends Component{
     }
 }
 
-export default Orders;
+export default History;

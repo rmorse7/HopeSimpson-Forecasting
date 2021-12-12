@@ -9,23 +9,18 @@ import List from '@mui/material/List';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
-import Badge from '@mui/material/Badge';
 import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
-import NotificationsIcon from '@mui/icons-material/Notifications';
 import CoronavirusOutlinedIcon from '@mui/icons-material/CoronavirusOutlined';
 import Dashboard from "./Dashboard/dashboard";
 import ListItem from "@mui/material/ListItem";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import ListItemText from "@mui/material/ListItemText";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import PeopleIcon from "@mui/icons-material/People";
-import BarChartIcon from "@mui/icons-material/BarChart";
-import LayersIcon from "@mui/icons-material/Layers";
-import ListSubheader from "@mui/material/ListSubheader";
-import AssignmentIcon from "@mui/icons-material/Assignment";
-import Orders from "./orders";
+import HistoryOutlinedIcon from '@mui/icons-material/HistoryOutlined';
+import OnlinePredictionOutlinedIcon from '@mui/icons-material/OnlinePredictionOutlined';
+import History from "./history";
+import Prediction from "./prediction";
 
 const drawerWidth = 240;
 
@@ -97,9 +92,14 @@ function DashboardContent() {
       setPageName('Dashboard');
     }
 
-    const changeToOrders = () => {
-        setPage(<Orders />);
-        setPageName('Orders');
+    const changeToHistory = () => {
+        setPage(<History />);
+        setPageName('History');
+    }
+
+    const changeToPrediction = () => {
+      setPage(<Prediction />);
+      setPageName('Prediction');
     }
 
     return (
@@ -133,11 +133,11 @@ function DashboardContent() {
                         >
                             {pageName}
                         </Typography>
-                        <IconButton color="inherit">
-                            <Badge badgeContent={4} color="secondary">
-                                <NotificationsIcon />
-                            </Badge>
-                        </IconButton>
+                        {/*<IconButton color="inherit">*/}
+                        {/*    <Badge badgeContent={4} color="secondary">*/}
+                        {/*        <NotificationsIcon />*/}
+                        {/*    </Badge>*/}
+                        {/*</IconButton>*/}
                     </Toolbar>
                 </AppBar>
                 <Drawer variant="permanent" open={open}>
@@ -177,56 +177,56 @@ function DashboardContent() {
                                 </ListItemIcon>
                                 <ListItemText primary="Dashboard" />
                             </ListItem>
-                            <ListItem button onClick={changeToOrders}>
+                            <ListItem button onClick={changeToPrediction}>
                                 <ListItemIcon>
-                                    <ShoppingCartIcon />
+                                    <OnlinePredictionOutlinedIcon />
                                 </ListItemIcon>
-                                <ListItemText primary="Orders" />
+                                <ListItemText primary="Prediction" />
                             </ListItem>
-                            <ListItem button>
+                            <ListItem button onClick={changeToHistory}>
                                 <ListItemIcon>
-                                    <PeopleIcon />
+                                    <HistoryOutlinedIcon />
                                 </ListItemIcon>
-                                <ListItemText primary="Customers" />
+                                <ListItemText primary="History" />
                             </ListItem>
-                            <ListItem button>
-                                <ListItemIcon>
-                                    <BarChartIcon />
-                                </ListItemIcon>
-                                <ListItemText primary="Reports" />
-                            </ListItem>
-                            <ListItem button>
-                                <ListItemIcon>
-                                    <LayersIcon />
-                                </ListItemIcon>
-                                <ListItemText primary="Integrations" />
-                            </ListItem>
+                            {/*<ListItem button>*/}
+                            {/*    <ListItemIcon>*/}
+                            {/*        <BarChartIcon />*/}
+                            {/*    </ListItemIcon>*/}
+                            {/*    <ListItemText primary="Reports" />*/}
+                            {/*</ListItem>*/}
+                            {/*<ListItem button>*/}
+                            {/*    <ListItemIcon>*/}
+                            {/*        <LayersIcon />*/}
+                            {/*    </ListItemIcon>*/}
+                            {/*    <ListItemText primary="Integrations" />*/}
+                            {/*</ListItem>*/}
                         </div>
                     </List>
-                    <Divider />
-                    <List>
-                        <div>
-                            <ListSubheader inset>Saved reports</ListSubheader>
-                            <ListItem button>
-                                <ListItemIcon>
-                                    <AssignmentIcon />
-                                </ListItemIcon>
-                                <ListItemText primary="Current month" />
-                            </ListItem>
-                            <ListItem button>
-                                <ListItemIcon>
-                                    <AssignmentIcon />
-                                </ListItemIcon>
-                                <ListItemText primary="Last quarter" />
-                            </ListItem>
-                            <ListItem button>
-                                <ListItemIcon>
-                                    <AssignmentIcon />
-                                </ListItemIcon>
-                                <ListItemText primary="Year-end sale" />
-                            </ListItem>
-                        </div>
-                    </List>
+                    {/*<Divider />*/}
+                    {/*<List>*/}
+                    {/*    <div>*/}
+                    {/*        <ListSubheader inset>Saved reports</ListSubheader>*/}
+                    {/*        <ListItem button>*/}
+                    {/*            <ListItemIcon>*/}
+                    {/*                <AssignmentIcon />*/}
+                    {/*            </ListItemIcon>*/}
+                    {/*            <ListItemText primary="Current month" />*/}
+                    {/*        </ListItem>*/}
+                    {/*        <ListItem button>*/}
+                    {/*            <ListItemIcon>*/}
+                    {/*                <AssignmentIcon />*/}
+                    {/*            </ListItemIcon>*/}
+                    {/*            <ListItemText primary="Last quarter" />*/}
+                    {/*        </ListItem>*/}
+                    {/*        <ListItem button>*/}
+                    {/*            <ListItemIcon>*/}
+                    {/*                <AssignmentIcon />*/}
+                    {/*            </ListItemIcon>*/}
+                    {/*            <ListItemText primary="Year-end sale" />*/}
+                    {/*        </ListItem>*/}
+                    {/*    </div>*/}
+                    {/*</List>*/}
                 </Drawer>
                 {page}
             </Box>

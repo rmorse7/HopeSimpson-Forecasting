@@ -4,9 +4,9 @@ import Toolbar from "@mui/material/Toolbar";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
-import Deposits from "./deposits";
+import Today from "./today";
 import Chart from "./chart";
-import Orders from "./orders";
+import Region from "./region";
 import Box from "@mui/material/Box";
 import Copyright from "../copyright";
 
@@ -29,7 +29,7 @@ export default function Dashboard(){
             <Toolbar />
             <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
                 <Grid container spacing={3}>
-                    {/* Recent Deposits */}
+                    {/* Recent Today */}
                     <Grid item xs={12} md={4} lg={3}>
                         <Paper
                             sx={{
@@ -39,7 +39,7 @@ export default function Dashboard(){
                                 height: 240,
                             }}
                         >
-                            <Deposits />
+                            <Today />
                         </Paper>
                     </Grid>
                     {/* Chart */}
@@ -55,10 +55,10 @@ export default function Dashboard(){
                             <Chart />
                         </Paper>
                     </Grid>
-                    {/* Recent Orders */}
+                    {/* Recent History */}
                     <Grid item xs={12}>
                         <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
-                            <Orders />
+                            <Region />
                         </Paper>
                     </Grid>
                 </Grid>

@@ -9,15 +9,15 @@ function createData(time, amount) {
 }
 
 const data = [
-    createData('00:00', 0),
-    createData('03:00', 300),
-    createData('06:00', 600),
-    createData('09:00', 800),
-    createData('12:00', 1500),
-    createData('15:00', 2000),
-    createData('18:00', 2400),
-    createData('21:00', 2400),
-    createData('24:00', undefined),
+    createData('12-14', 500),
+    createData('12-15', 300),
+    createData('12-16', 600),
+    createData('12-17', 800),
+    createData('12-18', 1500),
+    createData('12-19', 2000),
+    createData('12-20', 2400),
+    createData('12-21', 2400),
+    createData('12-22', undefined),
 ];
 
 export default function Chart() {
@@ -25,7 +25,7 @@ export default function Chart() {
 
     return (
         <React.Fragment>
-            <Title>Today</Title>
+            <Title>Prediction</Title>
             <ResponsiveContainer>
                 <LineChart
                     data={data}
@@ -54,7 +54,7 @@ export default function Chart() {
                                 ...theme.typography.body1,
                             }}
                         >
-                            Sales ($)
+                            Cases
                         </Label>
                     </YAxis>
                     <Line
