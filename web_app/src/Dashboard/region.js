@@ -7,7 +7,6 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Title from '../title';
 import Prediction from "../prediction";
-import Dashboard from "./dashboard";
 
 // Generate Order Data
 function createData(id, date, region, cases) {
@@ -49,7 +48,12 @@ function getDate() {
     return yourDate.toISOString().split('T')[0]
 }
 
-export default function Region() {
+export default function Region({setPage, setPageName}) {
+    const changeToPrediction = () => {
+        setPage(<Prediction />);
+        setPageName('Prediction');
+    }
+
     return (
         <React.Fragment>
             <Title>Region Forecasting</Title>
@@ -75,7 +79,7 @@ export default function Region() {
                     ))}
                 </TableBody>
             </Table>
-            <Link color="primary" href="#" sx={{ mt: 3 }}>
+            <Link color="primary" href="#" sx={{ mt: 3 }} onClick={changeToPrediction}>
                 See more prediction
             </Link>
         </React.Fragment>

@@ -77,7 +77,7 @@ function sleep(ms) {
 function DashboardContent() {
     const [open, setOpen] = React.useState(true);
     const [divOpen, setDivOpen] = React.useState(true);
-    const [page, setPage] = React.useState(<Dashboard />);
+    const [page, setPage] = React.useState();
     const [pageName, setPageName] = React.useState('Dashboard');
     const toggleDrawer = async () => {
         setOpen(!open);
@@ -88,7 +88,7 @@ function DashboardContent() {
     };
 
     const changeToDash = () => {
-      setPage(<Dashboard />);
+      setPage(<Dashboard setPage={setPage} setPageName={setPageName} />);
       setPageName('Dashboard');
     }
 
@@ -228,7 +228,7 @@ function DashboardContent() {
                     {/*    </div>*/}
                     {/*</List>*/}
                 </Drawer>
-                {page}
+                {page? page : <Dashboard setPage={setPage} setPageName={setPageName} />}
             </Box>
         </ThemeProvider>
     );

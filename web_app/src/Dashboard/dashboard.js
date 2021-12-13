@@ -10,7 +10,7 @@ import Region from "./region";
 import Box from "@mui/material/Box";
 import Copyright from "../copyright";
 
-export default function Dashboard(){
+export default function Dashboard({setPage, setPageName}){
     const theme = useTheme();
 
     return (
@@ -58,7 +58,7 @@ export default function Dashboard(){
                     {/* Recent History */}
                     <Grid item xs={12}>
                         <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
-                            <Region />
+                            <Region setPage={setPage} setPageName={setPageName} />
                         </Paper>
                     </Grid>
                 </Grid>
