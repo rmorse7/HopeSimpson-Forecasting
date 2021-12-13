@@ -17,26 +17,31 @@ const rows = [
     createData(
         0,
         getDate(),
-        'United States',
+        'Harris County',
         'TBD',
     ),
     createData(
         1,
         getDate(),
-        'China',
+        'Dallas County',
         'TBD',
     ),
-    createData(2, getDate(), 'Canada', 'TBD',),
+    createData(
+        2,
+        getDate(),
+        'Tarrant County',
+        'TBD',
+    ),
     createData(
         3,
         getDate(),
-        'India',
+        'Bexar County',
         'TBD',
     ),
     createData(
         4,
         getDate(),
-        'Japan',
+        'Travis County',
         'TBD',
     ),
 ];

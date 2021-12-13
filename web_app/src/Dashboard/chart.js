@@ -9,15 +9,15 @@ function createData(time, amount) {
 }
 
 const data = [
-    createData('12-14', 500),
-    createData('12-15', 300),
-    createData('12-16', 600),
-    createData('12-17', 800),
-    createData('12-18', 1500),
-    createData('12-19', 2000),
-    createData('12-20', 2400),
-    createData('12-21', 2400),
-    createData('12-22', undefined),
+    createData('12-06', 4051),
+    createData('12-07', 5101),
+    createData('12-08', 4514),
+    createData('12-09', 304),
+    createData('12-10', 40),
+    createData('12-11', 37),
+    createData('12-12', 8175),
+    createData('12-13', 8175),
+    createData('12-14', undefined),
 ];
 
 export default function Chart() {

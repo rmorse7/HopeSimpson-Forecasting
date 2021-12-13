@@ -6,8 +6,8 @@ export default function Copyright() {
     return (
         <Typography variant="body2" color="text.secondary" align="center" sx={{margin: 2}}>
             {'Copyright © '}
-            <Link color="inherit" href="https://mui.com/">
-                Your Website
+            <Link color="inherit" href="https://www.rice.edu/">
+                COMP554-HS Forecasting
             </Link>{' '}
             {new Date().getFullYear()}
             {'.'}
