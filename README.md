@@ -2,7 +2,7 @@
 
 ## COVID-19 Map Websites
 
-- [Map powered by Tableau Public](https://hopesimpsonmap.surge.sh/)
+- [Map powered by Tableau Public](https://hsmap.rice.edu)
 
 ## Data Sources
 
