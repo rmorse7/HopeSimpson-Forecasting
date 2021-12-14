@@ -33,9 +33,25 @@ export default function HistoricalAnalysis() {
                 </Typography>
                 <img src='tx_countiesedit.png' />
                 <img src='Curvecompare-1deg.png' width="60%" height="60%"/>
-                <img src='HarrisPrediction.png' width="60%" height="60%"/>
+                <Typography
+                    gutterBottom={true}
+                    variant='h5'
+                    component='h2'
+                    sx={{margin: 3}}
+                >
+                    Fit Regression based on latitude
+                </Typography>
                 <img src='Latcompare_1deg.png' width="60%" height="60%"/>
                 <img src='Latcompare_all.png' width="60%" height="60%"/>
+                <Typography
+                    gutterBottom={true}
+                    variant='h5'
+                    component='h2'
+                    sx={{margin: 3}}
+                >
+                    Harris Winter Cases Prediction
+                </Typography>
+                <img src='HarrisPrediction.png' width="60%" height="60%"/>
                 <Copyright sx={{ pt: 4 }} />
             </Container>
         </Box>
