@@ -19,8 +19,10 @@ import DashboardIcon from "@mui/icons-material/Dashboard";
 import ListItemText from "@mui/material/ListItemText";
 import HistoryOutlinedIcon from '@mui/icons-material/HistoryOutlined';
 import OnlinePredictionOutlinedIcon from '@mui/icons-material/OnlinePredictionOutlined';
+import AnalyticsOutlinedIcon from '@mui/icons-material/AnalyticsOutlined';
 import History from "./history";
 import Prediction from "./prediction";
+import HistoricalAnalysis from "./HistoricalAnalysis/historicalAnalysis";
 
 const drawerWidth = 240;
 
@@ -100,6 +102,11 @@ function DashboardContent() {
     const changeToPrediction = () => {
       setPage(<Prediction />);
       setPageName('Prediction');
+    }
+
+    const changeToHistoricalAnalysis = () => {
+        setPage(<HistoricalAnalysis />);
+        setPageName('Historical Analysis by Ricky Morse');
     }
 
     return (
@@ -189,12 +196,12 @@ function DashboardContent() {
                                 </ListItemIcon>
                                 <ListItemText primary="History" />
                             </ListItem>
-                            {/*<ListItem button>*/}
-                            {/*    <ListItemIcon>*/}
-                            {/*        <BarChartIcon />*/}
-                            {/*    </ListItemIcon>*/}
-                            {/*    <ListItemText primary="Reports" />*/}
-                            {/*</ListItem>*/}
+                            <ListItem button onClick={changeToHistoricalAnalysis}>
+                                <ListItemIcon>
+                                    <AnalyticsOutlinedIcon />
+                                </ListItemIcon>
+                                <ListItemText primary="Historical Analysis" />
+                            </ListItem>
                             {/*<ListItem button>*/}
                             {/*    <ListItemIcon>*/}
                             {/*        <LayersIcon />*/}
