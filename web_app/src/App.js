@@ -106,7 +106,7 @@ function DashboardContent() {
 
     const changeToHistoricalAnalysis = () => {
         setPage(<HistoricalAnalysis />);
-        setPageName('Historical Analysis by Ricky Morse');
+        setPageName('Texas counties analysis by Ricky Morse');
     }
 
     return (

@@ -34,6 +34,7 @@ class History extends Component{
                 <div ref={(div) => {
                     this.vizContainer = div
                 }}/>
+                <img src='Curvecompare-1deg.png' width="100%" height="100%"/>
                 <Copyright />
             </Box>
         )
