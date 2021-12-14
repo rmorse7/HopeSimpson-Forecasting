@@ -10,7 +10,7 @@ class Prediction extends Component{
     }
 
     initViz() {
-        const vizUrl = 'https://prod-useast-b.online.tableau.com/t/minghaoweb/views/TexasDataDailyVisualize/Sheet1?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link';
+        const vizUrl = 'https://prod-useast-b.online.tableau.com/t/minghaoweb/views/predict/Texas_county_predict?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link';
         const vizContainer = this.vizContainer;
         let viz = new window.tableau.Viz(vizContainer, vizUrl)
     }
