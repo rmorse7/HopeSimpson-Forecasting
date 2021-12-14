@@ -18,31 +18,31 @@ const rows = [
         0,
         getDate(),
         'Harris County',
-        'TBD',
+        '2955',
     ),
     createData(
         1,
         getDate(),
         'Dallas County',
-        'TBD',
+        '999',
     ),
     createData(
         2,
         getDate(),
         'Tarrant County',
-        'TBD',
+        '1884',
     ),
     createData(
         3,
         getDate(),
         'Bexar County',
-        'TBD',
+        '1606',
     ),
     createData(
         4,
         getDate(),
         'Travis County',
-        'TBD',
+        '1102',
     ),
 ];
 

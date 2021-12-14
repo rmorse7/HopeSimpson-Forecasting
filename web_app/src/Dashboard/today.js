@@ -17,9 +17,9 @@ function getDate() {
 export default function Today() {
     return (
         <React.Fragment>
-            <Title>Today's Confirmed Cases</Title>
+            <Title>Today's Predicted Cases</Title>
             <Typography component="p" variant="h4">
-                TBD
+                21935
             </Typography>
             <Typography color="text.secondary" sx={{ flex: 1 }}>
                 on {getDate()}

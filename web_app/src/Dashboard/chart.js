@@ -17,7 +17,7 @@ const data = [
     createData('12-11', 37),
     createData('12-12', 8175),
     createData('12-13', 8175),
-    createData('12-14', undefined),
+    createData('12-14', 21935),
 ];
 
 export default function Chart() {
