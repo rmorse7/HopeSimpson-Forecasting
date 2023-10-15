@@ -1,4 +1,4 @@
-# Rice University - Hope Simpson Forecasting 
+# COVID-19 - Hope Simpson Forecasting 
 
 ## COVID-19 Map Websites
 
